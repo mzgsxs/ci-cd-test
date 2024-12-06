@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           python3 -m venv venv
           . venv/bin/activate
-          python -m pip install flask8
+          python -m pip install flake8
 
       - name: Run Ruff
         run: flake8 --exclude=venv* --statistics
