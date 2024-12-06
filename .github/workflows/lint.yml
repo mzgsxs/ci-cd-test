@@ -1,0 +1,10 @@
+name: Lint Python Code
+
+on:
+  pull_request:
+    branches:
+      - github-actions
+  push:
+    branches:
+      - github-actions
+  workflow_dispatch:
