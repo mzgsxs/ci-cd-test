@@ -27,4 +27,4 @@ jobs:
           python -m pip install flake8
 
       - name: Run Ruff
-        run: flake8 --exclude=venv* --statistics
+        run: flake8 --exclude=venv --statistics
