@@ -1,4 +1,4 @@
-name: Deploy Sphinx Documentation
+name: Deploy Sphinx Documentation to branch
 
 on:
   push:
